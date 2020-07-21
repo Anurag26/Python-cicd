@@ -12,7 +12,7 @@ from calculator import calculator
 class MyTest(unittest.TestCase):
     def test(self):
         self.assertEqual(5, calculator("+",2,3))
-        self.assertEqual(0, calculator("-",2,2))
+        self.assertEqual(4, calculator("+",2,2))
     
     def test1(self):
         self.assertEqual(5, calculator("+",2,3))
