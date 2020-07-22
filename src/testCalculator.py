@@ -20,7 +20,7 @@ class MyTest(unittest.TestCase):
         
     def test2(self):
         self.assertEqual(9, calculator("+",8,1))
-        self.assertEqual(3, calculator("-",7,4))
+        self.assertEqual(2, calculator("-",7,4))
         
 if __name__ == '__main__':
     unittest.main()        
